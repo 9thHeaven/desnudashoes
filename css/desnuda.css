@@ -1,0 +1,32 @@
+.jumbotron-background{
+    background-image: url(../images/clheel.jpg); /*multiple leg image*/
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 480px) {
+.jumbotron-background{
+    background-image: url(../images/clheel.jpg); /*multiple leg image*/
+}
+
+}    
+    
+.jumbotron{
+    color:#ff4da6; /*pretty pink*/
+}
+
+@media screen and (max-width: 480px) {
+.jumbotron{
+    color:#e6b3ff; /*pale lavender*/
+}
+}    
+
+.describe{
+color:#ff4da6; /*pretty pink*/
+}
+
+@media screen and (max-width: 480px) {
+.describe{
+    color:#e6b3ff; /*pale lavender*/
+}
+}
