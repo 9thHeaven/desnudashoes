@@ -66,12 +66,12 @@ h5{
 
 }
 
-#move{
+/*#move{
  background:#a02d41;
  height:150px;
  width:150px;
  position:absolute;   
-}
+}not using this code for now.*/
 
 
 
@@ -105,9 +105,19 @@ h5{
 
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
 .jumbotron-background{
     background-image: url(../images/clheel.jpg); /*multiple leg image*/
+}
+}
+
+@media screen and (min-width: 300px) {
+.navbar{
+}
+}
+
+@media screen and (min-width: 300px) {
+.row{
 }
 }
 

@@ -5,17 +5,20 @@ function form_submit() {
 
 
 
-
-
-
 $(document).ready(function(){
+    $('.envelope').click(function(){
+        $('.envelope').effect('bounce',{times:5}, 500);});
+    });
+
+
+/*$(document).ready(function(){
     $('#move').click(function(){
         $('#move').animate({left: '500px'});
     });
-});
+}); not using this code right now */
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     $('#move').click(function(){
         $('#move').effect('bounce',{times:3}, 500);});
-    });
+    }); not using this code right now */
