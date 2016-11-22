@@ -1,0 +1,74 @@
+shandaeve:~/workspace $ echo "#desnudashoes" >> README.md
+shandaeve:~/workspace $ git init
+Initialized empty Git repository in /home/ubuntu/workspace/.git/
+shandaeve:~/workspace (master) $ git add README.md
+shandaeve:~/workspace (master) $ git commit -m "first commit"
+[master (root-commit) 5f1493b] first commit
+ 1 file changed, 27 insertions(+)
+ create mode 100644 README.md
+shandaeve:~/workspace (master) $ git remote add origin https://github.com/9thHeaven/desnudashoes.git
+shandaeve:~/workspace (master) $ git push -u origin master
+Username for 'https://github.com': 9thHeaven
+Password for 'https://9thHeaven@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 668 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/9thHeaven/desnudashoes.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+shandaeve:~/workspace (master) $ git branch gh-pages
+shandaeve:~/workspace (master) $ git checkout gh-pages
+Switched to branch 'gh-pages'
+shandaeve:~/workspace (gh-pages) $ git add --all
+shandaeve:~/workspace (gh-pages) $ git commit -m "added html to index"
+[gh-pages 20552ae] added html to index
+ 31 files changed, 384 insertions(+)
+ create mode 100644 contact.html
+ create mode 100644 css/desnuda.css
+ create mode 100644 images/awwgirl.jpg
+ create mode 100644 images/babypinkmod.jpg
+ create mode 100644 images/boring.jpg
+ create mode 100644 images/bridge.jpg
+ create mode 100644 images/chloe.jpg
+ create mode 100644 images/clheel.jpg
+ create mode 100644 images/darknatural.jpg
+ create mode 100644 images/gotham.jpg
+ create mode 100644 images/heelone.jpg
+ create mode 100644 images/heeltwo.jpg
+ create mode 100644 images/heyboo.jpg
+ create mode 100644 images/itnatural.jpg
+ create mode 100644 images/kitten.jpg
+ create mode 100644 images/loubou.jpg
+ create mode 100644 images/maybealex.jpg
+ create mode 100644 images/nudejustine.jpeg
+ create mode 100644 images/nudetasselcarousel.jpg
+ create mode 100644 images/peace.jpg
+ create mode 100644 images/peeplou.jpg
+ create mode 100644 images/rosieperez.jpg
+ create mode 100644 images/safesexy.jpg
+ create mode 100644 images/shakes.jpg
+ create mode 100644 images/slimane.jpg
+ create mode 100644 images/ticktock.jpg
+ create mode 100644 images/toudou.jpg
+ create mode 100644 images/upintheair.jpeg
+ create mode 100644 index.html
+ create mode 100644 js/desnuda.js
+ create mode 100644 selection.html
+shandaeve:~/workspace (gh-pages) $ git push
+Username for 'https://github.com': 9thHeaven
+Password for 'https://9thHeaven@github.com': 
+Counting objects: 36, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (36/36), 918.57 KiB | 0 bytes/s, done.
+Total 36 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/9thHeaven/desnudashoes.git
+ * [new branch]      gh-pages -> gh-pages
+shandaeve:~/workspace (gh-pages) $ git push
+Username for 'https://github.com': 9thHeaven
+Password for 'https://9thHeaven@github.com': 
+Everything up-to-date
+shandaeve:~/workspace (gh-pages) $ 

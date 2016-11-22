@@ -1,0 +1,131 @@
+  
+   <div id="talktome" class="container-fluid">
+    <h2>CONTACT</h2>
+  <h4>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</h4>  
+  </div>
+ 
+
+<p><a class="btn btn-warning btn-md" href="#" role="button"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <strong>INTRODUCE YOURSELF!</strong></a>
+
+
+
+
+<a class="btn btn-info" href="collection.html">More Info <span class="
+            glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+
+
+<h4>The 2016 Desnuda Collection is for the woman that 
+embodies refinement, 
+assertiveness, and sexiness.</h4> 
+ 
+ <h2>THE DESNUDA SHOE COLLECTION</h2>
+  <h4>The 2016 Desnuda Collection is for the woman that embodies
+  refinement, assertiveness, and sexiness.</h4>
+ 
+ 
+ <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+<a class="navbar-brand" href="index.html">Desnuda</a> 
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" 
+data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+</div> <!--end of navbar header -->
+     
+                
+    <div class="collapse navbar-collapse" id="myNavbar">
+                     <ul class="nav navbar-nav">
+                         <li class="active"><a href="index.html">Home</a></li>
+                         <li><a href="gallery.html">Shoe Gallery</a></li><!--line 31 is an example on adding a dropdown menu for the Services tab-->
+                         
+                         <li class="dropdown">
+                              <a id="dLABEL" data-target="#" href="http://www.example.com" 
+                              data-toggle="dropdown" role="button">Styles<span class="caret">
+                              </span>
+                              </a>
+                              
+                                  <ul class="dropdown-menu">
+                                   <li><a href="option1.html">Simply Stunning</a></li>
+                                   <li><a href="option1.html">Pure Sophistication</a></li>
+                                   <li><a href="option1.html">Classic Elegance</a></li> 
+                                   <li><a href="option1.html">Purely Chic</a></li>
+                                   
+                                   </ul>
+                            </li>
+                        <li><a href="form.html">Contact Us</a></li>
+                     </ul>   
+                </div> <!--end of div navbar-collapse -->
+            </div> <!-- end of container fluid -->
+        </nav> <!-- end of navbar -->
+        
+        
+        
+        
+   <div class="row"> <!--Row one-->
+         <div class="col-xs-12 col-sm-6 col-md-3">
+             <p class="cira">Cira</p>
+             <img class="img-responsive img-thumbnail" src="images/peeplou.jpg" 
+             alt="chocolate brown leather 4 inch heel with peeptoe and ankle strap">
+             <p>Gorgeous and iconic.</p>
+             
+             <a class="btn btn-info" href="#">More Info <span class="
+            glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+             
+     </div>   
+     
+     
+     
+     
+     <div class="col-xs-12 col-sm-6 col-md-3">
+             <p class="beth">Beth</p>
+             <img class="img-responsive img-thumbnail" src="images/sohighone.jpg" 
+             alt="chocolate brown leather 4 inch heel">
+             <p>Modern yet timeless.</p>
+             
+             <a class="btn btn-info" href="#">More Info <span class="
+            glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+     </div>
+     
+     <div class="col-xs-12 col-sm-6 col-md-3">
+             <p class="johnny">Johnny</p>
+             <img class="img-responsive img-thumbnail" src="images/toudou.jpg" 
+             alt="chocolate brown pointy toe flats">
+             <p>Classic lines, shapes, and neutral colors.</p>
+             
+             <a class="btn btn-info" href="#">More Info <span class="
+            glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+     </div>     
+        
+        
+        
+ <div class="panel-body">
+    
+     
+     <div class="row"> <!--Row one-->
+         <div class="col-sm-3">
+            
+      <img class="img-responsive img-thumbnail" src="images/peeplou.jpg" 
+             alt="chocolate brown leather peeptoe 4 inch heel">
+             
+             
+          <a class="btn btn-info" href="collection.html">The Dawn-Elise <span class="
+            glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+     
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
