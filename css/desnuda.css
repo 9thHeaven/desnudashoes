@@ -1,7 +1,13 @@
-#myDesnuda {
+body{
       position: relative;
-       margin: auto;
-  }
+}
+
+.jumbotron{
+    background-image: url(../images/clheel.jpg); /*multiple leg image*/
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
   
 .navbar{
     background-color: #722f59;
@@ -25,12 +31,7 @@
   
  
   
-  .container-fluid{
-      margin:auto;
-      }
-  
-  
-h2{
+  h1{
     color:#722f37;
     font-size:40px;
 }
@@ -51,18 +52,19 @@ h5{
 
 #cutie{
     background-color:#ffffff;/* (white).Shanda */
-    padding-top:50px;
-    
 }
 
 #shoegallery{
    background-color: #ffffff;/* (purple).Shanda */
-    padding-top:50px;
-     
+}
+
+.row{/* made all images fit inside container-fluid. found this trick on http://stackoverflow.com/questions/23768152/using-container-fluid-within-bootstrap-cause-horizontal-scrollbar*/
+margin: 0px;
 }
 
 #talktome{
     background-color: #ffffff;/* (orange).Shanda */
+    
 
 }
 
@@ -96,31 +98,13 @@ h5{
 }
 
 
-
-.jumbotron-background{
-    background-image: url(../images/clheel.jpg); /*multiple leg image*/
-    background-size: cover;
-    background-position: center;
-    height:250px;
-
+.panel-footer{
+ background-color: #722f59;
+ letter-spacing: 2px;
+ font-size: 15px;
+ text-align: center;
+ color:#ffffff;
 }
-
-@media screen and (min-width: 300px) {
-.jumbotron-background{
-    background-image: url(../images/clheel.jpg); /*multiple leg image*/
-}
-}
-
-@media screen and (min-width: 300px) {
-.navbar{
-}
-}
-
-@media screen and (min-width: 300px) {
-.row{
-}
-}
-
 
 
 .social .fbtn {
